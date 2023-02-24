@@ -9,7 +9,7 @@ bool checkPrime(uint64_t value) {
         if (value % i == 0) return false;
     }
     return true;
-};
+}
 
 uint64_t nPrime(uint64_t n) {
     uint64_t otvet = 1;
@@ -30,7 +30,7 @@ uint64_t nextPrime(uint64_t value) {
             return value;
         }
     }
-    
+
 uint64_t sumPrime(uint64_t hbound) {
     uint64_t chislo = 2;
     uint64_t otvet = 0;
